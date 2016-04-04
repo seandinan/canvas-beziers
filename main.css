@@ -2,6 +2,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-user-select: none;
+	padding: 200px;
+}
+
+img {
+	user-select: none;
 }
 button {
 	height: 50px;
@@ -10,4 +16,22 @@ button {
 	background-color: hsl(170, 50%, 30%);
 	color: white;
 	margin: 5px;
+}
+
+.tooth {
+	position: absolute;
+}
+
+#tester {
+	padding: 20px;
+	border: 2px solid hsl(190, 60%, 80%);
+}
+
+.dot {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: white;
+	border: 3px solid hsl(190, 60%, 80%);
+	border-radius: 50%;
 }
