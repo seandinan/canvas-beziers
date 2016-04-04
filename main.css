@@ -1,0 +1,13 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	height: 50px;
+	width: 150px;
+	border-style: none;
+	background-color: hsl(170, 50%, 30%);
+	color: white;
+	margin: 5px;
+}
